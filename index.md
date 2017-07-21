@@ -40,8 +40,7 @@ Please give feedback and report issues on the [GitHub repository](https://github
 
 - No shared libraries or frameworks in the frontend
   - ...because of coupling
-
-- Use a common base of JS polyfills and CSS resets. This should be regarded as infrastructure. Possibly have a small set of typography CSS rules as well.
+  - Use a common base of JS polyfills and CSS resets. This should be regarded as infrastructure. Possibly have a small set of typography CSS rules as well.
 
 - Use a styleguide for communicating overall design. Communication goes both ways
 
