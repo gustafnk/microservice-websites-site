@@ -15,7 +15,7 @@ Please give feedback and report issues on the [GitHub repository](https://github
 
 - Autonomous cross-functional teams
   - Free to choose technology, feedback (which leads to quality), speed, mastery, autonomy, purpose, responsibility
-  - Prefer (self-contained) verticals over horisontals
+  - Prefer verticals (self-contained systems) over horisontals
   - Infrastructural services are ok, must not contain domain language
   - The web browser is infrastructure, the HTML/CSS/JS is not infrastructure
   - User journeys sometimes cross team boundaries and that's ok
