@@ -31,9 +31,10 @@ Please give feedback and report issues on the [GitHub repository](https://github
   - However, you need to respect that some users still use HTTP 1.1.
     But they're not that many, and they're getting fewer and fewer, and most of them are on desktop devices and have good network connections.
 
-- The cognitive capacity of the organisation should be the limit for technology diversity, not the platform itself
+- The architecture should not be the limit for tech diversity
+  - Instead, the limit should be the cognitive capacity of the organisation
   - Staff transfers between teams
-  - Business value of being different? Standards, commodification, optimisations
+  - What's the business value of doing things differently? Innovation, standards, commodification, optimisations
 
 - Mobile performance is increasingly important, so client-side JS diversity not viable or wanted, no matter what "base" you have (Custom Elements, Web Assembly, AST-on-the-wire, etc)
 
@@ -56,7 +57,7 @@ Please give feedback and report issues on the [GitHub repository](https://github
   - If a fragment is not good (operational, performance, etc), either it can no longer be used or it must immediately be fixed
   - It's ok for a page to depend on a JS framework, as long as the page is within budget and is following agreed policies around accessibility, etc
 
-- Fragments have a dependency on their CSS (and JS, sometimes)
+- Fragments have a dependency on their CSS (and JS, optionally)
   - For each fragment type, the consumer will need to include that fragment type's CSS and JS
   - The fragment producer owns releases of the resources and thus the cache bust
   - Because of this, the consumer must not depend on a specific cache busted version. The consumer must depend on files *without* cache busts in their names (controlled by the producer) that in turn refers to cache busted files.
