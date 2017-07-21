@@ -46,7 +46,7 @@ Please give feedback and report issues on the [GitHub repository](https://github
 
 - Teams may produce pages, fragments, or both
   - Pages may include fragments, using transclusion (either server-side or client-side)
-  - Pages own their own <head> and <body>
+  - Pages own their own `<head>` and `<body>`
   - The page is its own description of what fragments it includes
   - Use declarative transclusion techniques
 
