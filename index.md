@@ -13,14 +13,15 @@ Please give feedback and report issues on the [GitHub repository](https://github
 
 # Microservice Websites
 
-- Automonous cross-functional teams
+- Autonomous cross-functional teams
   - Free to choose technology, feedback (which leads to quality), speed, mastery, autonomy, purpose, responsibility
   - Prefer (self-contained) verticals over horisontals
   - Infrastructural services are ok, must not contain domain language
   - The web browser is infrastructure, the HTML/CSS/JS is not infrastructure
+  - User journeys sometimes cross team boundaries and that's ok
 
   <!-- - The cycles of centralisation and decentralisation... But, of "what"? (TODO) -->
-  <!-- - On multi-channels and native apps, where to split? (TODO)  -->
+  <!-- - Multi-channels and native apps, where to split? (TODO)  -->
 
 - HTTP/2 is the enabler of independent teams, due to its multiplexing mechanism
   - With HTTP/2, we can use more JS and CSS references, compared to HTTP 1.1
@@ -74,5 +75,3 @@ Please give feedback and report issues on the [GitHub repository](https://github
   - Personalised content is not cacheable, be careful
 
 - Discovery of fragment types and fragment instances (TODO)
-
-- User journeys are sometimes a collage of pages/fragments/links
