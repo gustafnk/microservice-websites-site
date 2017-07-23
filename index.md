@@ -20,6 +20,8 @@ Please give feedback and report issues on the [GitHub repository](https://github
   - The web browser is infrastructure, the HTML/CSS/JS is not infrastructure
   - User journeys sometimes cross team boundaries and that's ok
 
+  <!-- - The closer the UI the more specialised needs (TODO) -->
+  <!-- - The ever-growing backlog of the centralised team (TODO) -->
   <!-- - The cycles of centralisation and decentralisation... But, of "what"? (TODO) -->
   <!-- - Multi-channels and native apps, where to split? (TODO)  -->
 
