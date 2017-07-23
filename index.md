@@ -73,8 +73,8 @@ Please give feedback and report issues on the [GitHub repository](https://github
   - Make a release and iterate! It should be easy to change between server-side and client-side transclusion of fragments.
 
 - Caching (TODO)
-  - Server-side transclusion is cached server side (both assembled pages and fragments). Cache assembled pages a short time (both server-side and client-side) and cache the fragments for a long time, as long as they actively can be purged from the cache
-  - Client-side transclusion works the same way, except that the assembled page never exists server-side.
+  - Server-side transclusion is cached server side (both assembled pages and fragments). Cache assembled pages a short time (both server-side and client-side) and cache the fragments for a long time server-side (if they can actively be purged from the cache)
+  - Client-side transclusion works the same way, except that the assembled page never exists server-side. However, from a client-side perspective, fragments resources are like any other resource, so these can't be cached for a long time in the client
   - Personalised content is not cacheable, be careful
 
 ## Maintaining the system
