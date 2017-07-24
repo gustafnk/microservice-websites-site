@@ -79,7 +79,7 @@ Please give feedback and report issues on the [GitHub repository](https://github
   - Cache fragments for a long time server-side (if they can actively be purged from the cache) and a short time client-side
   - The result of server-side transclusions is cached server side (both assembled pages and fragments) with a short cache time
   - In client-side transclusion, fragments resources are like any other resource, so use short client-side cache times
-  - Personalised content is not cacheable, be careful
+  - Use client-side transclusion for personalized fragments, since pages containing personalised content is not cacheable server-side
 
 ## Maintaining the system
 
