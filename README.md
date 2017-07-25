@@ -1,5 +1,5 @@
-# Microservice Websites (Site)
+# Microservice Websites
 
-Building websites with multiple teams
+Building websites with autonomous teams
 
-TODO
+Code for [Microservice Websites](https://microservice-websites.netlify.com/)
