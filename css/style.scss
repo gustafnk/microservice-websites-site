@@ -102,3 +102,10 @@ pre, .fact-box {
 body > p:last-of-type {
   margin-bottom: 10rem;
 }
+
+// Overrides
+
+p + p {
+  text-indent: 0rem;
+  margin-top: 0rem;
+}
