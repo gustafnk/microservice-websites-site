@@ -2,10 +2,6 @@
 layout: default
 ---
 
-# Micro&shy;service Websites
-
-<em class="sub-heading">Building websites with autonomous teams</em>
-
 Please give feedback and report issues on the [GitHub repository](https://github.com/gustafnk/microservice-websites-site/)
 
 ---
@@ -108,19 +104,3 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 
 - Use a styleguide for communicating overall design
 - Teams are encouraged to submit improvement suggestions to the styleguide and  suggestions for new components
-
----
-
-Please give feedback and report issues on the [GitHub repository](https://github.com/gustafnk/microservice-websites-site/)
-
-By Gustaf Nilsson Kotte ([@gustaf_nk](https://twitter.com/gustaf_nk/))
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-103160927-1', 'auto');
-  ga('send', 'pageview');
-</script>
