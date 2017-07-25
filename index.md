@@ -88,7 +88,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 ### Teams are responsible for their assembled pages
 
 - Delegation of responsibily (chained). Compare with a weather service producing images that other pages use (regular client-side image transclusion using `<img src>`)
-- Performance budget
+- Use a performance budget
 - If a fragment is not good (operational, performance, etc), either it can no longer be used or it must immediately be fixed
 - It's ok for a page to depend on a JS framework, as long as the page is within budget and is following agreed policies around accessibility, etc
 - It's not ok for a fragment to depend on a JS framework
