@@ -10,15 +10,13 @@ Please give feedback and report issues on the [GitHub repository](https://github
 
 ---
 
-## Enabler: HTTP/2
+## HTTP/2
 
-- HTTP/2 is the enabler of building websites with autonomous teams, due to its multiplexing mechanism
-- With HTTP/2 multiplexing, we can use more JS and CSS references, compared to HTTP 1.1
-- There's no longer any need of bundling resources between teams
-- This style of frontend architecture would not have possible with HTTP 1.1
-- HTTP/2 implementations multiplex AJAX requests as well, making Client Side Includes more viable than before
-- However, you need to respect that some users still use HTTP 1.1.
-  But they're not that many, and they're getting fewer and fewer, and most of them are on desktop devices and have good network connections.
+HTTP/2 is the enabler of building websites with autonomous teams, due to its multiplexing mechanism. We can use more JS and CSS references nowadays using HTTP/2. There's no longer any need of bundling resources between teams. This style of frontend architecture would not have possible with HTTP 1.1.
+
+HTTP/2 implementations multiplex AJAX requests as well, making Client Side Includes more viable than before.
+
+You need to respect that some users still use HTTP 1.1. However, they're not that many, and they're getting fewer and fewer, and most of them are on desktop devices and have good network connections.
 
 ## Constraints
 
@@ -27,7 +25,7 @@ Please give feedback and report issues on the [GitHub repository](https://github
 - Autonomous teams are cross-functional
 - Prefer verticals (self-contained systems) over horisontals
 - Infrastructural services are ok, must not contain domain language
-- Free to choose technology (and take responsability for the choice)
+- Free for teams to choose technology (and take responsability for the choice)
 - The web browser is infrastructure, the HTML/CSS/JS is not infrastructure
 - User journeys sometimes cross team boundaries and that's ok
 
@@ -39,9 +37,8 @@ Please give feedback and report issues on the [GitHub repository](https://github
 
 ### Heterogenous system
 
-- Allowing for diversity of technology (including different versions of software) is very valuable for evolvability
-- The architecture should not be a limit for diversity of technology
-- Instead, the limit should rather be the "cognitive capacity" of the organisation, i.e. being able to move between teams quite easily
+- Allowing for diversity of technology (including different versions of software) is critical for evolvability
+- The architecture itself should not be a limit for diversity of technolog. Instead, the limit should rather be the "cognitive capacity" of the organisation, i.e. being able to move between teams quite easily
 
 <!-- - What's the business value of doing things differently? Innovation, standards, commodification, optimisations -->
 
