@@ -23,7 +23,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 - Autonomous teams are cross-functional
 - Prefer verticals (self-contained systems) over horisontals
 - Infrastructural services are ok, must not contain domain language
-- It is free to choose technology for teams (and take responsability for the choice)
+- It is free to choose technology for teams (and take responsibility for the choice)
 
 <!-- - The web browser is infrastructure, HTML/CSS/JS is not infrastructure -->
 <!-- - User journeys sometimes cross team boundaries and that's ok -->
