@@ -23,10 +23,10 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 - Autonomous teams are cross-functional
 - Prefer verticals (self-contained systems) over horisontals
 - Infrastructural services are ok, must not contain domain language
-- Free for teams to choose technology (and take responsability for the choice)
-- The web browser is infrastructure, the HTML/CSS/JS is not infrastructure
-- User journeys sometimes cross team boundaries and that's ok
+- It is free to choose technology for teams (and take responsability for the choice)
+- The web browser is infrastructure, HTML/CSS/JS is not infrastructure
 
+<!-- - User journeys sometimes cross team boundaries and that's ok -->
 <!-- - Feedback, quality, speed, mastery, autonomy, purpose -->
 <!-- - The closer the UI the more specialised needs -->
 <!-- - The ever-growing backlog of the centralised team -->
@@ -36,7 +36,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 ### Heterogenous system
 
 - Allowing for diversity of technology (including different versions of software) is critical for evolvability
-- The architecture itself should not be a limit for diversity of technolog. Instead, the limit should rather be the "cognitive capacity" of the organisation, i.e. being able to move between teams quite easily
+- The architecture itself should not be a limit for diversity of technolog. Instead, the limit should other organisational factors, like being able to quite easily move between teams, etc
 
 <!-- - What's the business value of doing things differently? Innovation, standards, commodification, optimisations -->
 
