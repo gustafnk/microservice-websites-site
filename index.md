@@ -12,7 +12,7 @@ HTTP/2 is the enabler of building websites with autonomous teams, due to its mul
 
 HTTP/2 implementations multiplex AJAX requests as well, making Client Side Includes more viable than before.
 
-You need to respect that some users still use HTTP 1.1. However, they're not that many, and they're getting fewer and fewer, and most of them are on desktop devices and have good network connections.
+You need to respect that some users still use HTTP 1.1. However, they're not that many, they're getting fewer and fewer, and most of them are on desktop devices and have good network connections.
 
 ## Constraints
 
