@@ -15,6 +15,10 @@ HTTP/2 implementations multiplex AJAX requests as well, making Client Side Inclu
 You need to respect that some users still use HTTP 1.1. However, they're not that many, they're getting fewer and fewer, and most of them are on desktop devices and have good network connections.
 
 ## Constraints
+### Mobile performance
+
+- Mobile performance is increasingly important...
+- ...therefore, client-side JS diversity is *not* viable or wanted (regardless of Custom Elements, Web Assembly, AST-on-the-wire, etc)
 
 ### Autonomous web development teams
 
@@ -37,11 +41,6 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 - The architecture itself should not be a limit for diversity of technology. Instead, the limit should other organisational factors, like being able to quite easily move between teams, etc
 
 <!-- - What's the business value of doing things differently? Innovation, standards, commodification, optimisations -->
-
-### Mobile performance
-
-- Mobile performance is increasingly important...
-- ...therefore, client-side JS diversity is *not* viable or wanted (regardless of Custom Elements, Web Assembly, AST-on-the-wire, etc)
 
 ## Transclude HTML fragments
 
