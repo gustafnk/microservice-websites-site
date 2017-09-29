@@ -34,7 +34,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 ### Heterogenous system
 
 - Allowing for diversity of technology (including different versions of software) is critical for evolvability
-- The architecture itself should not be a limit for diversity of technolog. Instead, the limit should other organisational factors, like being able to quite easily move between teams, etc
+- The architecture itself should not be a limit for diversity of technology. Instead, the limit should other organisational factors, like being able to quite easily move between teams, etc
 
 <!-- - What's the business value of doing things differently? Innovation, standards, commodification, optimisations -->
 
@@ -51,7 +51,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 - Pages may include fragments, using transclusion (either server-side or client-side)
 - Pages own their own `<head>` and `<body>`
 - The page is its own description of what fragments it includes
-- **Use declarative transclusion techniques**
+- **Use declarative transclusion techniques** (like [Edge-Side Includes](https://en.wikipedia.org/wiki/Edge_Side_Includes) and [hinclude](https://github.com/mnot/hinclude)/[h-include](https://github.com/gustafnk/h-include))
 
 ### *No shared libraries or frameworks in the client*
 
@@ -102,5 +102,5 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 
 ### Styleguide
 
-- Use a styleguide for communicating overall design
+- Use a styleguide to communicate overall design
 - Teams are encouraged to submit improvement suggestions to the styleguide and  suggestions for new components
