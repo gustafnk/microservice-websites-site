@@ -20,7 +20,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 - Mobile performance is increasingly important...
 - ...therefore, client-side JS diversity is *not* viable or wanted (regardless of Custom Elements, Web Assembly, AST-on-the-wire, etc)
 
-### Autonomous web development teams
+### Autonomous web development teams (Scalable development)
 
 - Autonomous teams are cross-functional
 - Prefer verticals (self-contained systems) over horisontals
@@ -35,7 +35,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 <!-- - The cycles of centralisation and decentralisation... But, of "what"? -->
 <!-- - Multi-channels and native apps, where to split? (TODO)  -->
 
-### Heterogenous system
+### Heterogenous system (Evolvability)
 
 - Allowing for diversity of technology (including different versions of software) is critical for evolvability
 - The architecture itself should not be a limit for diversity of technology. Instead, the limit should other organisational factors, like being able to quite easily move between teams, etc
