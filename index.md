@@ -15,7 +15,8 @@ HTTP/2 implementations multiplex AJAX requests as well, making Client Side Inclu
 You need to respect that some users still use HTTP 1.1. However, they're not that many, they're getting fewer and fewer, and most of them are on desktop devices and have good network connections.
 
 ## Constraints
-### Mobile performance
+
+### Mobile performance
 
 - Mobile performance is increasingly important...
 - ...therefore, client-side JS diversity is *not* viable or wanted (regardless of Custom Elements, Web Assembly, AST-on-the-wire, etc)
@@ -23,7 +24,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 ### Autonomous web development teams (Scalable development)
 
 - Autonomous teams are cross-functional
-- Prefer verticals (self-contained systems) over horisontals
+- Prefer verticals (self-contained systems) over horizontals
 - Infrastructural services are ok, must not contain domain language
 - It is free to choose technology for teams (and take responsibility for the choice)
 
