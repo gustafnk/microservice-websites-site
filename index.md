@@ -24,7 +24,7 @@ You need to respect that some users still use HTTP 1.1. However, they're not tha
 ### Autonomous web development teams (Scalable development)
 
 - Autonomous teams are cross-functional
-- Prefer verticals (self-contained systems) over horisontals
+- Prefer verticals (self-contained systems) over horizontals
 - Infrastructural services are ok, must not contain domain language
 - It is free to choose technology for teams (and take responsibility for the choice)
 
