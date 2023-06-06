@@ -8,7 +8,7 @@ Please give feedback and report issues on the [GitHub repository](https://github
 
 ## HTTP/2
 
-HTTP/2 is the enabler of building websites with autonomous teams, due to its multiplexing mechanism. We can use more JS and CSS references nowadays using HTTP/2. The following style of frontend architecture would not have been possible with HTTP 1.1.
+HTTP/2 is the enabler of building websites with autonomous teams, due to its multiplexing mechanism. We can use more JS and CSS references nowadays using HTTP/2. The following style of frontend architecture is not performant using HTTP 1.1.
 
 HTTP/2 implementations multiplex AJAX requests as well, making Client Side Includes more viable than before.
 
